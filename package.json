@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "npm run clean && gatsby build && gh-pages -d public -b ttb-2021"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
