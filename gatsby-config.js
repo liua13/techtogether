@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: "https://www.yourdomain.tld",
     title: "TTB2021-virtual",
   },
   plugins: [
@@ -12,6 +13,8 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-helmet",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,7 +22,5 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
   ],
 };
