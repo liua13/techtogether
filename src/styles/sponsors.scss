@@ -5,6 +5,7 @@
     display: flex;
     height: 100%;
     width: 100%;
+    letter-spacing: 2px;
 
     .sponsorsSubcontainer{
         position: relative;
@@ -17,6 +18,40 @@
             font-family: "Roboto", sans-serif;
             font-weight: bold;
             font-size: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .sponsors {
+        text-align: center;
+
+        .sponsorsSubcontainer {
+            margin: 70px auto;
+            width: 500px;
+        }
+
+        .byteImages {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $small) {
+    .sponsors {
+        text-align: center;
+        letter-spacing: 1px;
+
+        .sponsorsSubcontainer {
+            margin: 70px 30px;
+
+            h2 {
+                font-size: 27px;
+            }
+        }
+
+        .byteImages {
+            display: none;
         }
     }
 }

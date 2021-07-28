@@ -11,7 +11,7 @@ const BackgroundSection = ({className}) => {
       query {
         desktop: file(relativePath: { eq: "background2.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 2000) {
+            fluid(quality: 90, maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -30,22 +30,24 @@ const BackgroundSection = ({className}) => {
     >
       <div className="about">
         <div className="aboutSubcontainer">
+          <div className="aboutTextContainer">
             <h2>
                 <span>Explore, dream, and discover. </span>
                 <span>New adventures await.</span>
             </h2>
             <br />
             <p>
-            Each year McHacks is proud to welcome a diverse group of students from across North America to Montreal for a jam-packed weekend of hacking. This year, McHacks is going global! For 36 hours, the best and brightest students from around the world will connect remotely and build their dreams.
+            We are excited to welcome you to TechTogether Boston 2021, which will be taking place virtually this year from September 10th - 12th. At TechTogether Boston, our mission is to empower all people of marginalized genders by providing opportunities to gain valuable skills and explore tech in an inclusive, inspiring, and engaging environment.
             
-            <br /><br />
+            <br/><br/>
 
-            Whether you're writing your first line of code, playing around with APIs, or building the next blockchain, McHacks is the place for you. We offer workshops, mentorship, and APIs to get you started, and we’re working hard to make sure everything you need for your next big hack is accessible from home. We hope you’ll join us remotely this winter for an exciting eighth edition of Canada’s favorite hackathon!
+            Our theme this season, New Adventures Await, is focused on exploration and getting outside your comfort zone. From expanding your skill set with our variety of workshops to learning about different career paths in STEM, we encourage you to set sail and join us as we embark on the next great adventure! Whether you’re a complete beginner or an experienced hacker, we’d love to see you virtually at TechTogether Boston 2021, open to all individuals of marginalized genders.
             </p>
+          </div>
         </div>
 
         <div className="byteImages">
-            <img src={tree} alt="oops" style={{width: 600, position: "absolute", bottom:"0", right:"0"}}/>
+            <img src={tree} alt="oops" style={{width: 550, position: "absolute", bottom:"0", right:"0"}}/>
         </div>
       </div>
     </BackgroundImage>

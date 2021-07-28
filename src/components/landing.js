@@ -12,7 +12,7 @@ const BackgroundSection = ({className}) => {
       query {
         desktop: file(relativePath: { eq: "background1.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 2000) {
+            fluid(quality: 90, maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -36,7 +36,7 @@ const BackgroundSection = ({className}) => {
               <h2>TechTogether</h2>
               <h2>Boston</h2>
               <div className="landingInfo">
-                <p>September 10 - 12, 2021 | Virtual Hackathon 💻</p>
+                <p>September 10 - 12, 2021 &nbsp; | &nbsp; Virtual Hackathon 💻</p>
                 <p>Boston's largest Gender-Focused Hackathon</p>
                 <br/>
                 <p>Join us for our 5-year anniversary!</p>

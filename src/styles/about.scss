@@ -6,10 +6,11 @@
     display: flex;
     height: 100%;
     width: 100%;
+    letter-spacing: 2px;
 
     .aboutSubcontainer{
         position: relative;
-        margin: auto 5% auto 15%;
+        margin: auto 3% auto 12%;
         font-family: "Barlow", sans-serif;
         // display: inline-flex;
 
@@ -30,6 +31,45 @@
         
         p {
             font-weight: 300;
+        }
+    }
+}
+
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .about {
+        .aboutSubcontainer {
+            margin: auto 20%;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        .byteImages {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $small) {
+    .about {
+        letter-spacing: 1px;
+
+        .aboutSubcontainer {
+            margin: auto 35px;
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .byteImages {
+            display: none;
         }
     }
 }

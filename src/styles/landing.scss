@@ -5,6 +5,7 @@
     width: 100%;
     margin: 0px;
     display: flex;
+    letter-spacing: 2px;
 
     .landingSubcontainer {
         width: 950px;
@@ -39,6 +40,54 @@
 
         .byteImages {
             flex: 0.5;
+        }
+    }
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .landing {
+        text-align: center;
+
+        .landingSubcontainer {
+            margin: auto;
+            width: 500px;
+        }
+
+        .byteImages {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $small) {
+    .landing {
+        text-align: center;
+        letter-spacing: 1px;
+
+        .landingSubcontainer {
+            margin: auto 30px;
+
+            .landingText {
+
+                .landingTextChild {
+                
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    .landingInfo {
+                        padding: 15px 0 0 0;
+
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .byteImages {
+            display: none;
         }
     }
 }
