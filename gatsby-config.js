@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/techtogether",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "TTB2021-virtual",
