@@ -42,7 +42,7 @@ const BackgroundSection = ({className}) => {
                 <p>Join us for our 5-year anniversary!</p>
 
                 <br/><br/>
-                <a type="button" href="https://techtogether.typeform.com/to/pbAZS3I4">
+                <a type="button" href="https://www.eventbrite.com/myevent?eid=153573481417" target="_blank">
                   Register
                 </a>
               </div>
