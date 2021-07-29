@@ -1,0 +1,18 @@
+[
+    {
+      "name": "ABOUT",
+      "path": "/about"
+    },
+    {
+      "name": "SPONSORS",
+      "path": "/sponsors"
+    },
+    {
+      "name": "FAQ",
+      "path": "/faq"
+    },
+    {
+      "name": "GET INVOLVED",
+      "path": "/get-involved"
+    }
+  ]
