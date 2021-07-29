@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.faq-test{
+  width: 600px;
+  display: inline-block;
+}
+
+.faq-container {
+  padding: 50px 3%;
+  font-size: 20px;
+  background-color: #FFFFFF;
+
+  h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    color: #5F6FFD;
+    letter-spacing: 0.095em;
+  }
+
+  .title-faq {
+      padding-top: 15px;
+      padding-bottom: 100px;
+
+  }
+
+//   dt,
+//   dd {
+//     //border: 1px solid #efeff4;
+//   }
+
+  dt {
+    // padding-left: 5%;
+    // padding-right:5%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    button {
+        font-family: 'Barlow', sans-serif;
+        text-indent: 10px;
+        font-size: 24px;
+        background-color: #707AD9;
+        border: none;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 100%;
+        text-align: left;
+        color:#FFFFFF;
+        
+
+      svg {
+        float: right;
+        width: 30px;
+        fill: #FFFFFF;
+      }
+    }
+
+    button:focus {
+      outline: 0;
+    }
+  }
+
+  dd {
+      padding-top:15px;
+      text-indent: 0px;
+    margin:10px;
+    background-color: #707AD9;
+    color:#FFFFFF;
+     border-top: none;
+     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.095em;
+  }
+}

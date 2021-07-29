@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Landing from "../components/landing"
 import About from "../components/about"
 import Sponsors from "../components/sponsors"
-import FAQ from "../components/faq"
+import FAQContainer from "../components/faqContainer"
 import GetInvolved from "../components/getInvolved"
 
 import "../styles/theme.scss"
@@ -14,7 +14,7 @@ const IndexPage = () => {
     <Layout>
       <Landing />
       <About />
-      <FAQ />
+      <FAQContainer />
       <Sponsors />
       <GetInvolved />
     </Layout>

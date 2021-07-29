@@ -16,7 +16,9 @@
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public -b ttb-2021"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "babel-plugin-styled-components": "^1.13.2",
+    "bootstrap": "^5.0.2",
     "gatsby": "^3.10.2",
     "gatsby-background-image": "^1.5.3",
     "gatsby-image": "^3.10.0",
@@ -28,6 +30,7 @@
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-sharp": "^2.12.1",
     "gbimage-bridge": "^0.1.4",
+    "jquery": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
