@@ -50,11 +50,11 @@ const BackgroundSection = ({className}) => {
           </div>
 
           <div className="byteImages" style={{position: "relative"}}>
-            <img src={bytePurpleBalloon} alt="oops" style={{width: 175, position: "absolute",bottom:"0", right:"0"}}/>
+            <img src={bytePurpleBalloon} alt="byte-images with balloons" style={{width: 175, position: "absolute",bottom:"0", right:"0"}}/>
           </div>
 
           <div className="byteImages">
-            <img src={byteBalloon} alt="oops" style={{width: 175}}/>
+            <img src={byteBalloon} alt="byte-images" style={{width: 175}}/>
           </div>
         </div>
       </section>

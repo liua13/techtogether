@@ -12,7 +12,8 @@
         // display: inline-flex;
 
         h2 {
-            color: $lightpurple;
+            //color: $lightpurple;
+            color: #181D46;
             text-align: center;
             text-transform: uppercase;
             font-family: "Roboto", sans-serif;
@@ -32,7 +33,10 @@
                     margin: auto;
 
                     button {
-                        background-color: $mediumpurple;
+                        //original color
+                       //background-color: $mediumpurple;
+                      //this dark purple leads to no contrast errors
+                        background-color:#181D46;
                     }
                 }
             }

@@ -75,7 +75,7 @@ const BackgroundSection = ({className}) => {
                     {byteData.map((data) => (
                         <div className="getInvolvedComponent">
                             <div className="byteImages">
-                                <img src={data.image} alt="oops" style={{width: 80}}/>
+                                <img src={data.image} alt="byte-images" style={{width: 80}}/>
                             </div>
                             <Dropdown
                                 header={data.header}

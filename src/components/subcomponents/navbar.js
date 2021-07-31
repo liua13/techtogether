@@ -8,7 +8,7 @@ const Nav = () => (
     <DynamicLink to="/" className="navLogo">
         <img
             src={techtogetherLogo}
-            alt="oops"
+            alt="TechTogether Logo"
             style={{ width: 200, marginTop: "5px" }}
         />
     </DynamicLink>

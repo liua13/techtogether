@@ -33,7 +33,7 @@ const BackgroundSection = ({className}) => {
             <h2>Our Sponsors</h2>
 
             <div className="byteImages">
-                <img src={byteTelescope} alt="oops" style={{width: 175, position: "absolute", bottom:"0", right:"0"}}/>
+                <img src={byteTelescope} alt="byte-image with telescope" style={{width: 175, position: "absolute", bottom:"0", right:"0"}}/>
             </div>
           </div>
       </section>

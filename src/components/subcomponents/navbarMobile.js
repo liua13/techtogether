@@ -39,7 +39,7 @@ const NavMobile = () => {
         <DynamicLink to="/" className="navLogo">
             <img
                 src={techtogetherLogo}
-                alt="oops"
+                alt="TechTogether Boston Logo"
                 style={{ width: 150, marginTop: "5px" }}
             />
         </DynamicLink>
@@ -48,13 +48,13 @@ const NavMobile = () => {
             <img
                 className="navMobileHamburger"
                 src={navHamburger}
-                alt="oops"
+                alt="hamburger symbol for navbar"
                 style={isNavOpen ? { display: "none" } : { display: "block" }}
             />
             <img
                 className="navMobileExit"
                 src={navExit}
-                alt="oops"
+                alt="exit symbol for navbar"
                 style={isNavOpen ? { display: "block" } : { display: "none" }}
             />
         </button>
