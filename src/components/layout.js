@@ -13,11 +13,11 @@ const Layout = ({ children }) => (
         {
           name: "description",
           content:
-            "",
+            "Join us virtually on September 10 - 12, 2021 for Boston's largest gender-focused hackathon!",
         },
         {
           name: "keywords",
-          content: "hackathon, boston, hackers, diversity",
+          content: "hackathon, boston, hackers, diversity, marginalized",
         },
       ]}
 
