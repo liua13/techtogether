@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "npm run clean && gatsby build && gh-pages -d public -b ttb-2021",
-    "deploy liua13": "npm run clean && gatsby build --prefix-paths && gh-pages -d public -b ttb-2021"
+    "deploylocal": "npm run clean && gatsby build --prefix-paths && gh-pages -d public -b ttb-2021"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
