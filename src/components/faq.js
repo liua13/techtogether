@@ -1,7 +1,25 @@
 import React from "react";
+import Dropdown from "./subcomponents/dropdown";
+import faqData from "../data/faq.json";
 
-const FAQ = () => {
-    return <div>FAQ</div>
+const Faq = () => {
+    return (
+        <section id="faq">
+            <div className="faqSubcontainer">
+                <h2>No Dumb Questions</h2>
+
+                <dl>
+                    {faqData.map((data) => (
+                        <Dropdown
+                            header={data.question}
+                            body={data.answer}
+                            key={data.question}
+                        />
+                    ))}
+                </dl>
+            </div>
+        </section>
+    )
 };
 
-export default FAQ;
+export default Faq;

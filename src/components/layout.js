@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Navbar from "../components/subcomponents/navbar";
-import NavbarMobile from "../components/subcomponents/navbar-mobile";
+import NavbarMobile from "../components/subcomponents/navbarMobile";
 
 import "../styles/theme.scss";
 
@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
         },
       ]}
     />
-    <Navbar />
+    {/* <Navbar /> */}
     <NavbarMobile />
     <div>{children}</div>
   </div>

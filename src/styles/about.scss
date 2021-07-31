@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,700;1,300&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
 
-.about {
+#about {
     color: white;
     display: flex;
     height: 100%;
@@ -37,7 +37,7 @@
 
 
 @media screen and (min-width: $small) and (max-width: $medium) {
-    .about {
+    #about {
         .aboutSubcontainer {
             margin: auto 20%;
 
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: $small) {
-    .about {
+    #about {
         letter-spacing: 1px;
 
         .aboutSubcontainer {

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
 
-.landing{
+#landing {
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width: $small) and (max-width: $medium) {
-    .landing {
+    #landing {
         text-align: center;
 
         .landingSubcontainer {
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: $small) {
-    .landing {
+    #landing {
         text-align: center;
         letter-spacing: 1px;
 

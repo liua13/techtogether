@@ -29,7 +29,7 @@ const BackgroundSection = ({className}) => {
       fluid={imageData}
     //   backgroundColor={`#040e18`}
     >
-      <div className="landing">
+      <section id="landing">
         <div className="landingSubcontainer">
           <div className="landingText">
             <div className="landingTextChild">
@@ -42,7 +42,7 @@ const BackgroundSection = ({className}) => {
                 <p>Join us for our 5-year anniversary!</p>
 
                 <br/><br/>
-                <a type="button" href="https://www.eventbrite.com/myevent?eid=153573481417" target="_blank">
+                <a type="button" href="https://www.eventbrite.com/myevent?eid=153573481417" target="_blank" rel="noreferrer">
                   Register
                 </a>
               </div>
@@ -57,7 +57,7 @@ const BackgroundSection = ({className}) => {
             <img src={byteBalloon} alt="oops" style={{width: 175}}/>
           </div>
         </div>
-      </div>
+      </section>
     </BackgroundImage>
   )
 }

@@ -28,7 +28,7 @@ const BackgroundSection = ({className}) => {
       fluid={imageData}
     //   backgroundColor={`#040e18`}
     >
-      <div className="sponsors">
+      <section id="sponsors">
           <div className="sponsorsSubcontainer">
             <h2>Our Sponsors</h2>
 
@@ -36,7 +36,7 @@ const BackgroundSection = ({className}) => {
                 <img src={byteTelescope} alt="oops" style={{width: 175, position: "absolute", bottom:"0", right:"0"}}/>
             </div>
           </div>
-      </div>
+      </section>
     </BackgroundImage>
   )
 }

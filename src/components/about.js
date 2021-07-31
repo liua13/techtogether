@@ -28,7 +28,7 @@ const BackgroundSection = ({className}) => {
       fluid={imageData}
     //   backgroundColor={`#040e18`}
     >
-      <div className="about">
+      <section id="about">
         <div className="aboutSubcontainer">
           <div className="aboutTextContainer">
             <h2>
@@ -49,7 +49,7 @@ const BackgroundSection = ({className}) => {
         <div className="byteImages">
             <img src={tree} alt="oops" style={{width: 550, position: "absolute", bottom:"0", right:"0"}}/>
         </div>
-      </div>
+      </section>
     </BackgroundImage>
   )
 }

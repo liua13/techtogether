@@ -1,8 +1,11 @@
 @import "_constants.scss";
+@import "dropdown.scss";
 @import "nav.scss";
 @import "landing.scss";
 @import "about.scss";
+@import "faq.scss";
 @import "sponsors.scss";
+@import "getInvolved.scss";
 @import "footer.scss";
 
 * {
@@ -12,8 +15,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-//   max-width: 100%;
-//   font-size: $md;
 }
 
 a[type=button] {
@@ -28,4 +29,17 @@ a[type=button] {
     box-shadow: 0px 1px 5px $shadowcolor;
     text-decoration: none;
     color: white;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
 }
