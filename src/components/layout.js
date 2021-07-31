@@ -20,8 +20,12 @@ const Layout = ({ children }) => (
           content: "hackathon, boston, hackers, diversity",
         },
       ]}
+
+      htmlAttributes={{
+        lang: 'en',
+      }}
     />
-    {/* <Navbar /> */}
+    <Navbar />
     <NavbarMobile />
     <div>{children}</div>
   </div>
