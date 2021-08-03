@@ -4,45 +4,9 @@ import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image';
 
 import Dropdown from "./subcomponents/dropdown";
-import byteViolet from "../images/byteViolet.png";
-import bytePurple from "../images/bytePurple.png";
-import byteTan from "../images/byteTan.png";
-import byteBlue from "../images/byteBlue.png";
-import byteLilac from "../images/byteLilac.png";
-import bytePink from "../images/bytePink.png";
+import Image from "./subcomponents/image";
 
-const byteData = [
-    {
-        "image": byteViolet,
-        "header": "Become a Sponsor",
-        "body": ""
-    },
-    {
-        "image": bytePurple,
-        "header": "Register to Hack",
-        "body": ""
-    },
-    {
-        "image": byteTan,
-        "header": "Resource Request",
-        "body": ""
-    },
-    {
-        "image": byteBlue,
-        "header": "Mentor Hackers",
-        "body": ""
-    },
-    {
-        "image": byteLilac,
-        "header": "Host a Workshop",
-        "body": ""
-    },
-    {
-        "image": bytePink,
-        "header": "Judge Projects",
-        "body": ""
-    }
-];
+import getInvolvedData from "../data/getInvolved.json";
 
 const BackgroundSection = ({className}) => {
   const data = useStaticQuery(
@@ -72,10 +36,10 @@ const BackgroundSection = ({className}) => {
                 <h2>Get Involved</h2>
 
                 <div className="getInvolvedBody">
-                    {byteData.map((data) => (
+                    {getInvolvedData.map((data) => (
                         <div className="getInvolvedComponent">
                             <div className="byteImages">
-                                <img src={data.image} alt="byte-images" style={{width: 80}}/>
+                                <Image filename={data.image} alt="byte-images"/>
                             </div>
                             <Dropdown
                                 header={data.header}

@@ -1,7 +1,8 @@
 [
     {
         "sponsor": "Test 1",
-        "logo": "pathtologo.png",
-        "blurb": "Test blurb"
+        "logo": "sponsors-logo/test.png",
+        "blurb": "Test blurb",
+        "tier": "test tier"
     }
 ]

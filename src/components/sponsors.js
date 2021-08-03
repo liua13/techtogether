@@ -3,7 +3,10 @@ import { graphql, useStaticQuery } from 'gatsby';
 import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image';
 
+import Image from "./subcomponents/image";
+
 import byteTelescope from "../images/byteTelescope.png";
+import sponsorsData from "../data/sponsors.json";
 
 const BackgroundSection = ({className}) => {
   const data = useStaticQuery(
@@ -18,9 +21,9 @@ const BackgroundSection = ({className}) => {
         }
       }
     `
-  )
+  );
 
-  const imageData = data.desktop.childImageSharp.fluid
+  const imageData = data.desktop.childImageSharp.fluid;
 
   return (
     <BackgroundImage
@@ -31,6 +34,14 @@ const BackgroundSection = ({className}) => {
       <section id="sponsors">
           <div className="sponsorsSubcontainer">
             <h2>Our Sponsors</h2>
+
+            <div className="sponsorLogoContainer">
+              {sponsorsData.map((data) => (
+                  <div className="sponsorLogo">
+                    <Image filename={data.logo} alt="byte-images" />
+                  </div>
+              ))}
+            </div>
 
             <div className="byteImages">
                 <img src={byteTelescope} alt="byte-image with telescope" style={{width: 175, position: "absolute", bottom:"0", right:"0"}}/>
